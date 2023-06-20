@@ -1,0 +1,37 @@
+
+{
+    "id": "conan-pl-pl",
+    "name": "conan-pl-PL",
+    "title": "Conan 2d20 - polskie tłumaczenie",
+    "description": "",
+    "version": "0.0.1",
+    "author": "kwaszczuk",
+    "esmodules": [],
+    "scripts": [],
+    "styles": [],
+    "packs": [],
+    "languages": [{
+        "lang": "pl",
+        "name": "Polski",
+        "path": "pl.json"  	
+    }],
+    "minimumCoreVersion" : 10,
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "11"
+    },
+    "relationships": {
+      "systems": [
+        {
+          "id": "conan2d20",
+          "type": "system",
+          "compatibility": {}
+        }
+      ],
+      "requires": []
+    },
+    "url": "https://github.com/kwaszczuk/conan-translation",
+    "manifest": "https://github.com/kwaszczuk/conan-translation/releases/download/0.0.1/module.json",
+    "download": "https://github.com/kwaszczuk/conan-translation/releases/download/0.0.1/conan-pl-PL.json"
+  }
